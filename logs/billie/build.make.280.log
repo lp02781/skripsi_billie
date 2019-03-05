@@ -1,0 +1,23 @@
+[  5%] Built target measurement
+[ 10%] Built target velocity_limit
+[ 15%] Built target velocity_trapezium
+[ 20%] Built target sinusoidal
+[ 25%] Built target trapezium_sigmoid
+[ 30%] Built target velocity_control
+[ 35%] Built target garis_lurus
+[ 40%] Built target circle
+[ 45%] Built target coupling_measurement
+[ 50%] Built target power_consumption
+[ 55%] Built target position_control
+[ 60%] Built target keyboard_command
+[ 65%] Built target paper
+[ 70%] Built target zigzag
+[ 75%] Built target billie
+[ 80%] Built target multiple_trajectory
+[ 85%] Built target position_sigmoid
+[ 90%] Built target gps_control
+[35m[1mScanning dependencies of target pitch_limitation[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/pitch_limitation.dir/src/pitch_limitation.cpp.o[0m
+[ 97%] Built target rpy_measurement
+[100%] [32m[1mLinking CXX executable /home/billie/catkin_ws/devel/.private/billie/lib/billie/pitch_limitation[0m
+[100%] Built target pitch_limitation

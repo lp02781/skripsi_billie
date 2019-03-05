@@ -1,0 +1,4 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:118:219:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [-Wformat-extra-args]
+    fprintf(trapezium, "%f, %f, %f, %f, %f, %f, %f, %f \n",position_reff_x, current_position_x, qc_velocity.twist.linear.x, velocity.twist.linear.x,delta_position_reff_x, acceleration, roll, pitch, delta_position_reff_x);
+[01;32m[K                                                                                                                                                                                                                           ^[m[K

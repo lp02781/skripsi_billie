@@ -1,0 +1,23 @@
+[ 10%] Built target velocity_limit
+[ 10%] Built target measurement
+[ 15%] Built target velocity_control
+[ 20%] Built target velocity_trapezium
+[ 25%] Built target trapezium_sigmoid
+[ 30%] Built target garis_lurus
+[ 35%] Built target coupling_measurement
+[ 40%] Built target sinusoidal
+[35m[1mScanning dependencies of target paper[0m
+[ 45%] Built target circle
+[ 50%] Built target power_consumption
+[ 52%] [32mBuilding CXX object CMakeFiles/paper.dir/src/paper.cpp.o[0m
+[ 57%] Built target keyboard_command
+[ 62%] Built target position_control
+[ 67%] Built target zigzag
+[ 72%] Built target billie
+[ 77%] Built target position_sigmoid
+[ 82%] Built target multiple_trajectory
+[ 87%] Built target gps_control
+[ 92%] Built target pitch_limitation
+[ 97%] Built target rpy_measurement
+[100%] [32m[1mLinking CXX executable /home/billie/catkin_ws/devel/.private/billie/lib/billie/paper[0m
+[100%] Built target paper

@@ -1,0 +1,7 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/velocity_trapezium.cpp:[m[K In function ‘[01m[Kvoid velocity_trajectory(const ros::TimerEvent&)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/velocity_trapezium.cpp:164:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+    velocity_reff = 2*gain_constant/17); 
+[01;32m[K                                      ^[m[K
+make[2]: *** [CMakeFiles/velocity_trapezium.dir/src/velocity_trapezium.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_trapezium.dir/all] Error 2
+make: *** [all] Error 2

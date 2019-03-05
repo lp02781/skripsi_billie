@@ -1,0 +1,18 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:108:20:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+ double x_cmd[15] = 0;
+[01;32m[K                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:109:20:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+ double y_cmd[15] = 0;
+[01;32m[K                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:110:21:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+ double Vx_cmd[15] = 0;
+[01;32m[K                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:111:21:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+ double Vy_cmd[15] = 0;
+[01;32m[K                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:112:20:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+ double jarak[15] = 0;
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/gps_control.dir/src/gps_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gps_control.dir/all] Error 2
+make: *** [all] Error 2

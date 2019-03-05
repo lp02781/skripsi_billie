@@ -1,0 +1,25 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:[m[K In function ‘[01m[Kvoid position_trajectory(const ros::TimerEvent&)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:278:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 0;
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:282:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 2*exp(gain_constant-10)/(exp(gain_constant-10)+1); 
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:286:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 2;
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:290:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 2 - 2*(exp(gain_constant-30)/(exp(gain_constant-30)+1));   
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:294:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 0;
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:298:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_reff[m[K’ was not declared in this scope
+    velocity_reff = 0;
+[01;32m[K    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/trapezium_sigmoid.cpp:300:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_trajectory_begin[m[K’ was not declared in this scope
+    velocity_trajectory_begin = 0;
+[01;32m[K    ^[m[K
+make[2]: *** [CMakeFiles/trapezium_sigmoid.dir/src/trapezium_sigmoid.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trapezium_sigmoid.dir/all] Error 2
+make: *** [all] Error 2

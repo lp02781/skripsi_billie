@@ -1,0 +1,14 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:124:18:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kdepan[m[K’
+ double kecepatan depan;
+[01;32m[K                  ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:195:294:[m[K [01;31m[Kerror: [m[K‘[01m[Kkecepatan_depan[m[K’ was not declared in this scope
+    fprintf(rpy, "%f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f \n",position_reff_x, current_position_x, position_reff_y, current_position_y,qc_velocity.twist.linear.x, qc_velocity.twist.linear.y, current_error_x, current_error_y, yaw_reff, current_yaw, mse_x, mse_y, roll, pitch, kecepatan_depan);
+[01;32m[K                                                                                                                                                                                                                                                                                                      ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:[m[K In function ‘[01m[Kvoid position_trajectory(const ros::TimerEvent&)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:519:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kkecepatan_depan[m[K’ was not declared in this scope
+   kecepatan_depan = sqrt(fabs(pow(qc_velocity.twist.linear.x,2)+pow(qc_velocity.twist.linear.y,2)));
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/gps_control.dir/src/gps_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gps_control.dir/all] Error 2
+make: *** [all] Error 2

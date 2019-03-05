@@ -1,0 +1,6 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:385:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  if(pid_ctrl == 1){
+[01;32m[K  ^[m[K
+make[2]: *** [CMakeFiles/gps_control.dir/src/gps_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gps_control.dir/all] Error 2
+make: *** [all] Error 2

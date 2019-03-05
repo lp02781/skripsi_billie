@@ -1,0 +1,10 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/pitch_limitation.cpp:[m[K In function ‘[01m[Kvoid position_trajectory(const ros::TimerEvent&)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/pitch_limitation.cpp:365:36:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble [15][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator*[m[K’
+     delta_position_reff_x = Vx_cmd*gain_constant/t1;
+[01;32m[K                                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/pitch_limitation.cpp:366:36:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble [15][m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator*[m[K’
+     delta_position_reff_y = Vy_cmd*gain_constant/t2; 
+[01;32m[K                                    ^[m[K
+make[2]: *** [CMakeFiles/pitch_limitation.dir/src/pitch_limitation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pitch_limitation.dir/all] Error 2
+make: *** [all] Error 2

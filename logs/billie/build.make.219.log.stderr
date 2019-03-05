@@ -1,0 +1,32 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:104:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo_msgs[m[K’ was not declared in this scope
+  ros::Publisher stop_publisher = nh.advertise<gazebo_msgs::ServerControl>("/gazebo/server/control",10);
+[01;32m[K                                               ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:104:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  ros::Publisher stop_publisher = nh.advertise<gazebo_msgs::ServerControl>("/gazebo/server/control",10);
+[01;32m[K                                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:104:102:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise(const char [23], int)[m[K’
+  ros::Publisher stop_publisher = nh.advertise<gazebo_msgs::ServerControl>("/gazebo/server/control",10);
+[01;32m[K                                                                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:104:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Publisher stop_publisher = nh.advertise<gazebo_msgs::ServerControl>("/gazebo/server/control",10);
+[01;32m[K                                                                                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher advertise(const std::string& topic, uint32_t queue_size,
+[01;32m[K             ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:104:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  ros::Publisher stop_publisher = nh.advertise<gazebo_msgs::ServerControl>("/gazebo/server/control",10);
+[01;32m[K                                                                                                      ^[m[K
+make[2]: *** [CMakeFiles/circle.dir/src/circle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/circle.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

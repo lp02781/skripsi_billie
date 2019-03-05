@@ -1,0 +1,11 @@
+make[2]: Warning: File 'CMakeFiles/gps_control.dir/depend.make' has modification time 34809 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/gps_control.dir/depend.make' has modification time 34809 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:[m[K In function ‘[01m[Kvoid keyboardCommands()[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/circle.cpp:157:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+    return -1;
+[01;32m[K            ^[m[K
+make[2]: *** [CMakeFiles/circle.dir/src/circle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/circle.dir/all] Error 2
+make: *** [all] Error 2

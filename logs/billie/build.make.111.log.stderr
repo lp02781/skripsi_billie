@@ -1,0 +1,151 @@
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:[m[K In function ‘[01m[Kvoid keyboardCommands()[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:228:53:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     ll.pose.pose.position.y = latitude_cmd[cmd_count]; 
+[01;32m[K                                                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:229:54:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     ll.pose.pose.position.x = longitude_cmd[cmd_count];
+[01;32m[K                                                      ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:233:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     x_cmd[cmd_count] = qc_ll.pose.pose.position.x - x_awal;
+[01;32m[K                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:234:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     y_cmd[cmd_count] = qc_ll.pose.pose.position.y - y_awal;
+[01;32m[K                    ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:1[m[K:
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:243:63:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     ROS_INFO_STREAM("Nilai x cmd[] adalah " << x_cmd[cmd_count]);
+[01;32m[K                                                               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:243:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+     ROS_INFO_STREAM("Nilai x cmd[] adalah " << x_cmd[cmd_count]);
+[01;32m[K     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:244:63:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     ROS_INFO_STREAM("Nilai y cmd[] adalah " << y_cmd[cmd_count]);
+[01;32m[K                                                               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:244:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+     ROS_INFO_STREAM("Nilai y cmd[] adalah " << y_cmd[cmd_count]);
+[01;32m[K     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:255:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     jarak[cmd_count] = sqrt(pow((x_cmd[cmd_count]-x_cmd[cmd_count-1]),2)+pow((y_cmd[cmd_count]-y_cmd[cmd_count-1]),2));
+[01;32m[K                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:255:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     jarak[cmd_count] = sqrt(pow((x_cmd[cmd_count]-x_cmd[cmd_count-1]),2)+pow((y_cmd[cmd_count]-y_cmd[cmd_count-1]),2));
+[01;32m[K                                                 ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:255:68:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     jarak[cmd_count] = sqrt(pow((x_cmd[cmd_count]-x_cmd[cmd_count-1]),2)+pow((y_cmd[cmd_count]-y_cmd[cmd_count-1]),2));
+[01;32m[K                                                                    ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:255:94:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     jarak[cmd_count] = sqrt(pow((x_cmd[cmd_count]-x_cmd[cmd_count-1]),2)+pow((y_cmd[cmd_count]-y_cmd[cmd_count-1]),2));
+[01;32m[K                                                                                              ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:255:113:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     jarak[cmd_count] = sqrt(pow((x_cmd[cmd_count]-x_cmd[cmd_count-1]),2)+pow((y_cmd[cmd_count]-y_cmd[cmd_count-1]),2));
+[01;32m[K                                                                                                                 ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:256:21:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vx_cmd[cmd_count] = ((x_cmd[cmd_count]-x_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:256:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vx_cmd[cmd_count] = ((x_cmd[cmd_count]-x_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                          ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:256:61:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vx_cmd[cmd_count] = ((x_cmd[cmd_count]-x_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:256:79:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vx_cmd[cmd_count] = ((x_cmd[cmd_count]-x_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:257:21:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vy_cmd[cmd_count] = ((y_cmd[cmd_count]-y_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                     ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:257:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vy_cmd[cmd_count] = ((y_cmd[cmd_count]-y_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                          ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:257:61:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vy_cmd[cmd_count] = ((y_cmd[cmd_count]-y_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:257:79:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     Vy_cmd[cmd_count] = ((y_cmd[cmd_count]-y_cmd[cmd_count-1])/jarak[cmd_count])* max_velocity; 
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:270:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     duration[cmd_count] = jarak[cmd_count] / max_velocity;
+[01;32m[K                       ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:270:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     duration[cmd_count] = jarak[cmd_count] / max_velocity;
+[01;32m[K                                          ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:273:29:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+    duration[jml_trajectory-1] = (jarak[jml_trajectory-1] - (0.5*max_velocity*t2))/max_velocity;
+[01;32m[K                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:273:56:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+    duration[jml_trajectory-1] = (jarak[jml_trajectory-1] - (0.5*max_velocity*t2))/max_velocity;
+[01;32m[K                                                        ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:[m[K In function ‘[01m[Kvoid position_trajectory(const ros::TimerEvent&)[m[K’:
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:356:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count]*(exp((10/t1)*(gain_constant-(t1/2)))/(exp((10/t1)*(gain_constant-(t1/2)))+1));
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:357:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count]*(exp((10/t1)*(gain_constant-(t1/2)))/(exp((10/t1)*(gain_constant-(t1/2)))+1));
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:361:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:362:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:387:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+    if(gain_constant < (total_duration + duration[cmd_count]))
+[01;32m[K                                                           ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:389:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:390:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:443:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count] - Vx_cmd[cmd_count]*(exp((10/t2)*(gain_constant-total_duration-(t2/2)))/(exp((10/t2)*(gain_constant-total_duration-(t2/2)))+1));
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:443:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count] - Vx_cmd[cmd_count]*(exp((10/t2)*(gain_constant-total_duration-(t2/2)))/(exp((10/t2)*(gain_constant-total_duration-(t2/2)))+1));
+[01;32m[K                                                                 ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:444:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count] - Vy_cmd[cmd_count]*(exp((10/t2)*(gain_constant-total_duration-(t2/2)))/(exp((10/t2)*(gain_constant-total_duration-(t2/2)))+1));
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:444:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count] - Vy_cmd[cmd_count]*(exp((10/t2)*(gain_constant-total_duration-(t2/2)))/(exp((10/t2)*(gain_constant-total_duration-(t2/2)))+1));
+[01;32m[K                                                                 ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:448:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_x = Vx_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:449:45:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+     delta_position_reff_y = Vy_cmd[cmd_count];
+[01;32m[K                                             ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:472:58:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+   if(gain_constant > (total_duration + duration[cmd_count]))
+[01;32m[K                                                          ^[m[K
+[01m[K/home/billie/catkin_ws/src/billie/src/gps_control.cpp:474:56:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble [15][double][m[K’ for array subscript
+    total_duration = total_duration + duration[cmd_count];
+[01;32m[K                                                        ^[m[K
+make[2]: *** [CMakeFiles/gps_control.dir/src/gps_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gps_control.dir/all] Error 2
+make: *** [all] Error 2

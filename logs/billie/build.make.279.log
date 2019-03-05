@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target velocity_trapezium[0m
+[  5%] Built target velocity_limit
+[ 10%] Built target velocity_control
+[ 15%] Built target measurement
+[ 17%] [32mBuilding CXX object CMakeFiles/velocity_trapezium.dir/src/velocity_trapezium.cpp.o[0m
+[ 22%] Built target garis_lurus
+[ 27%] Built target sinusoidal
+[ 32%] Built target trapezium_sigmoid
+[ 37%] Built target coupling_measurement
+[ 42%] Built target power_consumption
+[ 47%] Built target circle
+[ 52%] Built target keyboard_command
+[ 57%] Built target paper
+[ 62%] Built target position_control
+[ 67%] Built target billie
+[ 72%] Built target zigzag
+[ 77%] Built target gps_control
+[ 82%] Built target position_sigmoid
+[ 87%] Built target multiple_trajectory
+[ 92%] Built target pitch_limitation
+[ 97%] Built target rpy_measurement
+[100%] [32m[1mLinking CXX executable /home/billie/catkin_ws/devel/.private/billie/lib/billie/velocity_trapezium[0m
+[100%] Built target velocity_trapezium

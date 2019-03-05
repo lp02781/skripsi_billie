@@ -1,0 +1,8 @@
+prefix=/home/mfikih15/Documents/skripsi_billie/devel
+
+Name: billie
+Description: Description of billie
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mfikih15/Documents/skripsi_billie/devel/lib 
+Requires: 
